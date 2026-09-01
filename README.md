@@ -162,11 +162,6 @@ Attendance Recorded
 * **Supabase**
 * **PostgreSQL**
 
-### Authentication & Security
-
-* **bcrypt**
-* Streamlit Secrets
-
 ### Deployment
 
 * **Streamlit Community Cloud**
@@ -205,93 +200,6 @@ SnapClass/
     └── secrets.toml
 ```
 
-> The project structure may vary depending on the current version of the repository.
-
----
-
-## 🚀 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Neha-Shirsath/Snapclass-by-Neha_Shirsath.git
-```
-
-### 2. Navigate to the Project
-
-```bash
-cd Snapclass-by-Neha_Shirsath
-```
-
-### 3. Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### 4. Activate the Virtual Environment
-
-#### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-#### macOS / Linux
-
-```bash
-source venv/bin/activate
-```
-
-### 5. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🔐 Configuration
-
-SnapClass uses **Supabase** for database operations.
-
-Create a Streamlit secrets file:
-
-```text
-.streamlit/
-└── secrets.toml
-```
-
-Add your credentials:
-
-```toml
-SUPABASE_URL = "your_supabase_url"
-SUPABASE_KEY = "your_supabase_key"
-```
-
-### ⚠️ Security
-
-Never commit your `secrets.toml` file or expose database/API credentials publicly.
-
-Add it to `.gitignore`:
-
-```text
-.streamlit/secrets.toml
-```
-
----
-
-## ▶️ Usage
-
-Run the Streamlit application:
-
-```bash
-streamlit run app.py
-```
-
-The application will start locally and can be accessed through the URL shown in the terminal.
-
----
 
 ## 🗄️ Database
 
