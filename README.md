@@ -2,7 +2,7 @@
 
 SnapClass is an **AI-powered attendance management system** that automates classroom attendance using facial recognition. It helps teachers reduce the time spent on manual attendance while maintaining digital attendance records.
 
-🔗 **Live Demo:** https://snapclass-main-byneha.streamlit.app/
+🔗 **Live Demo:** https://smart-class-landing-page-roan.vercel.app/
 
 
 
